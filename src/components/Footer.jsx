@@ -13,10 +13,12 @@ const StFooter = styled.footer`
   background-color: #f5cbee;
 
   border-radius: 0 0 15px 15px;
+
+  text-shadow: 2px 2px 4px rgba(130, 129, 129, 0.5);
 `;
 
 const Footer = () => {
-  return <StFooter>By.pigrok</StFooter>;
+  return <StFooter>By.pig_rok</StFooter>;
 };
 
 export default Footer;

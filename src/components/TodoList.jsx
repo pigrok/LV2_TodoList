@@ -7,6 +7,8 @@ import { styled } from "styled-components";
 
 const StBody = styled.div`
   max-width: 1200px;
+
+  text-shadow: 2px 2px 4px rgba(130, 129, 129, 0.5);
 `;
 
 const StMainTitle = styled.div`
@@ -34,6 +36,8 @@ const StCard = styled.div`
 
   max-height: 250px;
   min-height: 250px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
 
 const StTitle = styled.p`

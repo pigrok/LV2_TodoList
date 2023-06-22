@@ -13,6 +13,8 @@ const StHeader = styled.header`
   margin-top: 20px;
 
   border-radius: 15px 15px 0 0;
+
+  text-shadow: 2px 2px 4px rgba(130, 129, 129, 0.5);
 `;
 
 const Header = () => {
