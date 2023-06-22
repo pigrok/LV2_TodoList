@@ -23,17 +23,22 @@ const StInput = styled.input`
   font-weight: bold;
 
   border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 `;
 
 const StButton = styled.button`
   height: 35px;
   background-color: transparent;
 
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
   &:hover {
     background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 `;
 
