@@ -89,7 +89,7 @@ const TodoList = ({ isDone }) => {
             .map((toDo) => {
               return (
                 <StCard>
-                  <Link to={`/detail`}>
+                  <Link to={`/detail/${toDo.id}/${toDo.title}/${toDo.content}`}>
                     <StTitle>{toDo.title}</StTitle>
                   </Link>
                   <StContent>{toDo.content}</StContent>
