@@ -25,10 +25,10 @@
 
 ◈ Detail Page
 - Feel free to implement your own design and screen organization for the detail page, but the following elements must be visible.
-  ○ Todo`s ID
-  ○ Todo`s Title
-  ○ Todo`s Content
-  ○ Implement a `back button`, and when clicked, it will take you back to the list screen.
+  - Todo ID
+  - Todo Title
+  - Todo Content
+  - Implement a `back button`, and when clicked, it will take you back to the list screen.
 
 # 📁./src/components/
 
@@ -39,4 +39,5 @@
 
 # 🖥️ Layout
 
-<img src="https://github.com/pigrok/todolist-pjt/assets/129926477/5274316b-cbd9-4679-990e-1fcd971bd8a5" width="2000"/>
+<img src="https://github.com/pigrok/LV2_TodoList/assets/129926477/d3b5db22-a330-46b8-bdac-8dc98d7306cc" width="2000"/>
+<img src="https://github.com/pigrok/LV2_TodoList/assets/129926477/c6c69cab-22fb-475b-9fb4-84c488c3c432" width="2000"/>
