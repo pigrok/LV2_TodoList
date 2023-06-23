@@ -3,9 +3,11 @@ import { useNavigate, useParams } from "react-router-dom";
 import { styled } from "styled-components";
 
 const StContainer = styled.div`
+  // 가운데 정렬
   display: flex;
   justify-content: center;
   align-items: center;
+
   width: 100%;
   height: 100vh;
 `;
@@ -67,7 +69,9 @@ const StMainFont = styled.p`
 `;
 
 function Detail() {
+  // url에서 전달된 id, title, content를 가져옴
   const { id, title, content } = useParams();
+  // use Navigate를 통해 메인 페이지로 이동하는 함수
   const navigate = useNavigate();
 
   const navigateHandler = () => {

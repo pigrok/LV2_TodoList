@@ -3,7 +3,6 @@
 <br/>
 
 # 🚩 What to implement
-
 - Create Todo
 - Read Todos, Todo
 - Update Todo
@@ -31,7 +30,6 @@
   - Implement a `back button`, and when clicked, it will take you back to the list screen.
 
 # 📁./src/components/
-
 - `Header.jsx` 
 - `Input.jsx`
 - `ToDoList.jsx` 
