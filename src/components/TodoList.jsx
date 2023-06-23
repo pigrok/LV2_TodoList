@@ -78,21 +78,28 @@ const StButton = styled.button`
     height: 30px;
   }
 `;
-
+// isDone이라는 props를 받음
 const TodoList = ({ isDone }) => {
+  // useDispatch와 useSelector 훅을 사용
+  // Redux의 상태와 action dispatch를 사용
   const dispatch = useDispatch();
+  // useSelector를 통해 toDos의 state를 가져옴
   const toDos = useSelector((state) => state.toDos);
   console.log(toDos);
   return (
     <>
       <StBody>
+        {/* isDone이 true인 경우 DONELIST를 받고, false인 경우  TODOLIST를 받음 */}
         <StMainTitle>{isDone ? "DONELIST" : "TODOLIST"}</StMainTitle>
         <StWrapper>
+          {/* toDos를 필터링하여 해당 isDone 값과 일치하는 것만 출력 */}
+          {/* map 함수를 사용하여 toDos의 컴포넌트를 생성 */}
           {toDos
             .filter((t) => t.isDone === isDone)
             .map((toDo) => {
               return (
                 <StCard>
+                  {/* Link 컴포넌트를 사용하여 해당 toDo의 detail page로 이동 */}
                   <Link to={`/detail/${toDo.id}/${toDo.title}/${toDo.content}`}>
                     <StTitle>{toDo.title}</StTitle>
                   </Link>

@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 📚 Create My Todo List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
+<br/>
 
-## Available Scripts
+# 🚩 What to implement
 
-In the project directory, you can run:
+- Create Todo
+- Read Todos, Todo
+- Update Todo
+- Delete Todo
 
-### `yarn start`
+# ⛏ Assignment guide
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+◈ Common
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- TODOS data uses redux to globally manage state.
+- The todos module is implemented with the Ducks pattern.
 
-### `yarn test`
+◈ Main Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- The design and screen organization is up to you.
+- Implement a status in Todo that separates the "Done" group from the "In Progress" group. They don't have to be above or below the example video, and you can get creative with your implementation.
+- When we add a Todo, we implement the title input and content input to be empty again.
+- Implement so that if you navigate to the detail page while the input has a value, the value of the input is initialized.
+- Implement the status button to be labeled "Cancel" if the Todo's completion status is true, and "Complete" if false.
+- Limit the full screen to a maximum width of 1200px and a minimum width of 800px, and center the content on the screen.
+- Clicking View `details` takes you to the todo's detail page. What you should see on the detail page is covered in the toggles below.
 
-### `yarn build`
+◈ Detail Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Feel free to implement your own design and screen organization for the detail page, but the following elements must be visible.
+  - Todo ID
+  - Todo Title
+  - Todo Content
+  - Implement a `back button`, and when clicked, it will take you back to the list screen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 📁./src/components/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `Header.jsx`
+- `Input.jsx`
+- `ToDoList.jsx`
+- `Footer.jsx`
 
-### `yarn eject`
+# 🖥️ Layout
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="https://github.com/pigrok/LV2_TodoList/assets/129926477/d3b5db22-a330-46b8-bdac-8dc98d7306cc" width="2000"/>
+<img src="https://github.com/pigrok/LV2_TodoList/assets/129926477/c6c69cab-22fb-475b-9fb4-84c488c3c432" width="2000"/>
