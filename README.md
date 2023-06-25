@@ -3,15 +3,17 @@
 <br/>
 
 # 🚩 What to implement
-- Create Todo
-- Read Todos, Todo
-- Update Todo
-- Delete Todo
+
+- Create ToDo
+- Read ToDos, ToDo
+- Update ToDo
+- Delete ToDo
+
 
 # ⛏ Assignment guide
 ◈ Common
 - TODOS data uses redux to globally manage state.
-- The todos module is implemented with the Ducks pattern.
+- The toDos module is implemented with the Ducks pattern.
 
 ◈ Main Page
 - The design and screen organization is up to you.
@@ -24,9 +26,9 @@
 
 ◈ Detail Page
 - Feel free to implement your own design and screen organization for the detail page, but the following elements must be visible.
-  - Todo ID
-  - Todo Title
-  - Todo Content
+  - ToDo ID
+  - ToDo Title
+  - ToDo Content
   - Implement a `back button`, and when clicked, it will take you back to the list screen.
 
 # 📁./src/components/
